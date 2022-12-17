@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    width:100%;
+    height: 100%;
+     overflow-x:hidden;
+     background-color: #eaeded;
+     
+}
+
+.navbg{
+    background-color: #131921;
+}
+.orange{
+    background-color: #febd69;
+}
+.graybg{
+    background-color: #f3f3f3;
+}
+.secondnavbg{
+    background-color: #232f3e;
+}
+
+.acolor{
+    color: white;
+}
+
+.acolorgreen{
+    color: #4899a7;
+    text-decoration: none;
+}
+
+
+.giftcontainer{
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    
+
+}
+
+.giftcontainer a{
+    
+    width: 300px;
+    height: auto;
+    margin: 4px;
+    max-width: 100%;
+    
+}
+
+.giftcontainer::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  
+  /* Track */
+  .giftcontainer::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .giftcontainer::-webkit-scrollbar-thumb {
+    background: rgb(192, 191, 191); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .giftcontainer::-webkit-scrollbar-thumb:hover {
+    background: #c0bebe; 
+  }
+
+
+  .bestsellerscontainer{
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    
+
+}
+
+.bestsellerscontainer a{
+    
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    max-width: 100%;
+    
+}
+
+.bestsellerscontainer::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  
+  /* Track */
+  .bestsellerscontainer::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .bestsellerscontainer::-webkit-scrollbar-thumb {
+    background: rgb(192, 191, 191); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .bestsellerscontainer::-webkit-scrollbar-thumb:hover {
+    background: #c0bebe; 
+  }
+
+  .button_class {
+    width:100%;
+    color:#fff;
+    text-align:center;
+    background-color:#37475a;
+}
+
+.link_class {
+    display:block;
+    color:#ffffff;
+    overflow:auto;
+    padding:10px;   
+    text-decoration: none;
+     
+}
+.link_class:hover{
+    
+        color: white;
+      
+}
+
+
+.bgfoot{
+    background-color: #232f3e;
+    
+}
+
+.nav-link-text{
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    
+    
+}
+.nav-link-text:hover{
+    border-bottom: 2px solid rgb(207, 206, 206);
+    
+    
+}
+  
+
